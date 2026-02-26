@@ -1,0 +1,11 @@
+ntfy-base-url: https://ntfy.sh # ntfy.sh is the public instance, you can use your own
+ntfy-topic: CHANGE_THIS # use a random ID, or something specific to this use
+
+neri-usr-token: "EXAMPLE_25f976ee-593e-404d-a0c6-b3742801d9cf" # Your Nerimity user token (see README to know where to find this)
+
+your-uid: 1741936300505874432 # copy your UID from your profile page under the 3-dot menu
+# the script will ignore messages from this UID and raise the priority of messages containing it
+
+watched-channels:
+  - id: 1289157729608441857 # Right click a channel and "Copy ID" to get this number
+    title: "Nerimity #General" # Notifications will say "Someone in {title}"

@@ -1,0 +1,6 @@
+services:
+    neriping:
+        image: ghcr.io/littlebitstudios/neriping:latest
+        container_name: neriping
+        volumes:
+            - ./config:/config:z # the z is there for podman users. it can be removed if you're using docker.
